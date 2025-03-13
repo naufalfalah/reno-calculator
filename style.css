@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+  }
+  
+  header {
+    background-color: #2d89ef;
+    color: white;
+    padding: 1.5rem 0;
+    text-align: center;
+  }
+  
+  .calculator-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  }
+  
+  .step {
+    display: none;
+  }
+  
+  .step.active {
+    display: block;
+  }
+
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-top: 0.5rem;
+  }
+  
+  input[type="number"], select {
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+  
+  input[type="radio"] {
+    margin-right: 0.5rem;
+  }
+  
+  h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .option-btn, .restart-btn {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: #2d89ef;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .option-btn:hover, .next-btn:hover, .restart-btn:hover {
+    background-color: #1b5fa7;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.75rem;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  .step {
+    display: none;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .step h2 {
+    margin-bottom: 10px;
+  }
+  
+  .step h3 {
+    margin-top: 15px;
+    color: #333;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  label {
+    display: block;
+    margin: 5px 0;
+  }
